@@ -1,0 +1,393 @@
+html {
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	background-color: black;
+	color: white;
+}
+
+.header {
+	display: flex;
+	flex-shrink: 0;
+	justify-content: space-between;
+	align-items: baseline;
+	color: #fffffe;
+	background-color: black;
+	font-size: 20px;
+	padding: 8px;
+	margin-bottom: 50px;
+	flex: 1;
+	font-size: 20px;
+	text-shadow: 3px 3px 20px #ff99cc,
+		-2px 1px 30px #ff99cc;
+}
+
+.title {
+	font-size: 28px;
+	height: 60px;
+	margin-bottom: 60px;
+	text-shadow: 10px 10px 25px rgb(81, 67, 21),
+		-10px 10px 25px rgb(81, 67, 21),
+		-10px -10px 25px rgb(81, 67, 21),
+		10px -10px 25px rgb(81, 67, 21);
+}
+
+h3 {
+	display: inline;
+	font-size: 30px;
+	margin-left: 250px;
+}
+
+.links {
+	display: flex;
+	gap: 30px;
+	font-size: 20px;
+	margin-right: 250px;
+	margin-left: 50px;
+}
+
+.link-two {
+	align-self: baseline;
+}
+
+.links a:hover {
+	color: cyan;
+}
+
+.right-arrow {
+	font-size: 18px;
+}
+
+a {
+	list-style-type: none;
+	color: #fffffe;
+	text-decoration: none;
+}
+
+.container-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-img-container {
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+	flex: 1;
+	justify-content: center;
+	align-items: start;
+	background-color: black;
+	gap: 10px;
+}
+
+.text-and-signup-container p {
+	color: wheat;
+}
+
+.text-and-signup-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 400px;
+	height: 500px;
+	color: gold;
+	margin-right: 150px;
+	align-items: baseline;
+	justify-content: space-evenly;
+}
+
+.self-improvement-img {
+	height: 500px;
+	width: 300px;
+	border-radius: 25px;
+	box-shadow: 0 0 100px 15px lightgoldenrodyellow; 
+	/* This 3rd value helps me set the brightness kind of for my shadow, and the amount it spreads */
+}
+
+.signup-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px 30px;
+	background-color: #050801;
+	color: #03e9f4;
+	font-weight: bold;
+	border: 1px solid lightblue;
+	border-radius: 5px;
+	letter-spacing: 4px;
+	overflow: hidden;
+	transition: 0.5s;
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	flex-shrink: 0;
+	margin-top: 30px;
+}
+
+button:hover {
+	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+		0 0 25px #03e9f4,
+		0 0 50px #03e9f4,
+		0 0 200px #03e9f4;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.text-and-signup-container p {
+	font-size: 18px;
+}
+
+.container-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+.container-2 h2 {
+	margin-bottom: 30px;
+}
+
+.services {
+	font-size: 50px;
+	margin-top: 30px;
+	padding: 20px;
+	color: white;
+	font-weight: 900;
+	text-shadow: 3px 3px 20px #ff99cc,
+		-2px 1px 30px #ff99cc;
+}
+
+.four-images img {
+	width: 310px;
+	height: 450px;
+	border-radius: 50%;
+	border: 2px solid yellow;
+	margin-bottom: 50px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: all 1s ease;
+	transition: all;
+
+}
+
+img:hover {
+	filter: grayscale(0%);
+	filter: gray;
+	-webkit-filter: grayscale(0%);
+	filter: none;
+	transition: 1s ease;
+	box-shadow: 0 0 70px 15px darkorange;
+}
+
+.four-images {
+	display: flex;
+	gap: 100px;
+	margin-top: 50px;
+	justify-content: center;
+}
+
+.img-text-wrap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 300px;
+	align-items: last baseline;
+}
+
+.img-text-wrap .text {
+	font-size: 18px;
+	color: #fffdd0;  
+	/* color is cream  */
+	align-items: center;
+	justify-content: center;
+}
+
+span {
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: chartreuse;
+	text-shadow: 10px 10px 25px rgb(81, 67, 21),
+		-10px 10px 25px rgb(81, 67, 21),
+		-10px -10px 25px rgb(81, 67, 21),
+		10px -10px 25px rgb(81, 67, 21);
+}
+
+q {
+	margin-top: 25px;
+	margin-bottom: 23px;
+	font-size: 22px;
+	color: gold;
+	font-weight: 600;
+}
+
+/* .container-3 {
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	border: lightpink;
+	border-radius: 30px;
+	justify-content: space-evenly;
+	align-items: center;
+	border: 2px dotted lightpink;
+	width: 1200px;
+	margin-top: 30px;
+	box-shadow: 0 0 50px 15px #48abe0;
+	font-size: 18px;
+}
+
+.container-3 q{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.container-3 .author {
+	display: flex;
+	align-self: center;
+	margin-left: 670px;
+	font-size: 27px;
+	color: magenta;
+	font-style: italic;
+	flex-wrap: wrap;
+	font-weight: 600;
+	text-shadow: 3px 3px 20px #ff99cc,
+		-2px 1px 30px #ff99cc;
+} */
+
+
+.container-4 {
+	display: flex;
+	margin-top: 60px;
+	width: 850px;
+	height: 80px;
+	border: 2px solid black;
+	border-radius: 15px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	color: black;
+}
+
+.header-and-text {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	justify-content: baseline;
+	margin-top: 0;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 1.7;
+
+}
+
+.signup-button-2 button {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	padding: 25px 30px;
+	background-color: #050801;
+	color: #03e9f4;
+	font-weight: bold;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	letter-spacing: 4px;
+	overflow: hidden;
+	transition: 0.5s;
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	flex-shrink: 0;
+}
+
+.signup-button-2 button:hover {
+	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px yellow,
+		0 0 25px yellow,
+		0 0 50px yellow,
+		0 0 200px #03e9f4;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.final-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: #36454f; */
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: black;
+	border: 2px solid rgb(238, 226, 154);
+	border-left: none;
+	border-right: none;
+	width: 80%;
+	height: 400px;
+	margin-top: 70px;
+	color: white;
+}
+
+.in-row {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.about-description {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.about-sculpt li ,
+.my-sculpt li,
+.help-and-FAQs li {
+	list-style-type: none;
+	color: white;
+	line-height: 2.5;
+}
+
+.headings {
+	list-style-type: none;
+	margin-top: 35px;
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 28px;
+}
+
+.terms-and-conditions ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: gray;
+	gap: 15px;
+}
+
+.terms-and-conditions li ,
+.terms-and-conditions a {
+	list-style-type: none;
+	color: gray;
+}
+
